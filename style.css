@@ -738,7 +738,7 @@ body {
     width: 45px;
     height: 45px;
     font-size: 22px;
-   
+
     background: var(--primaryColor);
     color: white;
     border-radius: 50%;
@@ -805,7 +805,6 @@ body {
         justify-content: center;
         text-align: center;
         height: auto;
-        padding: 4rem 0;
     }
 
     .hero-content {
@@ -1009,7 +1008,7 @@ body {
     }
 
     .skills h2 {
-        font-size: 60px;
+        font-size: 2rem;
         color: var(--TextColor);
         margin-bottom: 2.5rem;
     }
@@ -1020,6 +1019,7 @@ body {
         justify-content: center;
         align-items: center;
         gap: 10px;
+        place-items: center;
     }
 
     .skill-card {
@@ -1110,6 +1110,7 @@ body {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 1rem;
+        justify-items: center;
     }
 
     .project-card {
@@ -1211,7 +1212,7 @@ body {
 
     .footer-info p {
         color: var(--TextColor);
-        font-size: 18px;
+        font-size: 16px;
         line-height: 1;
         margin-bottom: 1rem;
     }
